@@ -78,18 +78,18 @@ Before you begin, ensure you have the following installed:
 
 ## Project Structure
 
-job-tracker/
-├── components/       # Reusable UI components
-├── lib/              # Utility functions and helper functions
-├── models/           # MongoDB schema definitions
-├── pages/            # Next.js pages and API routes
-│   ├── api/          # API endpoints
-│   └── ...           # Page components
-├── public/           # Static assets
-├── styles/           # Global styles and Tailwind CSS configuration
-├── .env.local        # Environment variables
-├── next.config.js    # Next.js configuration file
-└── README.md         # Project documentation
+- **job-tracker/**
+  - **components/**       # Reusable UI components
+  - **lib/**              # Utility functions and helper functions
+  - **models/**           # MongoDB schema definitions
+  - **pages/**            # Next.js pages and API routes
+    - **api/**            # API endpoints
+    - **...**             # Page components
+  - **public/**           # Static assets
+  - **styles/**           # Global styles and Tailwind CSS configuration
+  - **.env.local**        # Environment variables
+  - **next.config.js**    # Next.js configuration file
+  - **README.md**         # Project documentation
 
 
 ## Contributing
